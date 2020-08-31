@@ -239,16 +239,24 @@ def clr():
 def banner():
 
     clr()
-    logo="""
-   ████████ █████                 ██
-   ▒▒▒██▒▒▒ ██▒▒██                ██
-      ██    ██  ██        ██   ██ ██
-      ██    █████▒  ████  ███ ███ █████
-      ██    ██▒▒██ ██  ██ ██▒█▒██ ██▒▒██
-      ██    ██  ██ ██  ██ ██ ▒ ██ ██  ██
-      ██    █████▒ ▒████▒ ██   ██ █████▒
-      ▒▒    ▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒
-                                         """
+    logo="""""
+    \x1b[1;91m▅▅▅▅▅▅▅▅▅▅๑۩∆(SHIMANTO)∆۩๑▅▅▅▅▅▅▅▅▅
+\x1b[1;97m➣Author→Hatters HG-Gang
+\x1b[1;93m➣☏→01813407204
+\x1b[1;92m➣Disclamiar:This Is For Educational Purpose Only.
+\x1b[1;91m▅▅▅▅▅▅▅▅▅▅๑۩∆(vau)∆۩๑▅▅▅▅▅▅▅▅▅
+\033[1;94m             ▲▲▲▲▲
+\033[1;93m           █████████
+\033[1;95m           █▄█████▄█
+\033[1;96m  🔀▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇🔀
+\033[1;97m  🔀▇▇▇-MR-SHIMANTO-▇▇▇🔀
+\033[1;98m  🔀▇▇▇-HG-▇▇▇🔀
+\033[1;99m  🔀▇▇▇-XXXXXXXXXXX-▇▇▇🔀
+\033[1;92m  🔀▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇🔀
+\033[1;96m           █████████
+\033[1;91m           █▄█████▄█
+\033[1;94m             ▼▼▼▼▼       
+
     print(random.choice(colors)+logo+W)
     print("\n")
 
@@ -646,8 +654,8 @@ def getapi(pn,lim,cc):
 
         data = {
           'email': cc+pn,
-          'firstname': 'SpeedX',
-          'lastname': 'SpeedX'
+          'firstname': 'Shimanto',
+          'lastname': 'shimanto'
         }
 
         response = requests.post('https://www.aala.com/accustomer/ajax/getOTP', headers=headers, cookies=cookies, json=data)
@@ -741,7 +749,7 @@ def start(target, counter, delay, ch, cc):
         print("             Failed Requests         : ", failed)
         print("==================================================================")
         print("              Use this for fun, not for revenge !!                ")
-        print("              This Bomber Was Created By SpeedX !!                ")
+        print("              This Bomber Was Created By SHIMANTO !!                ")
         print("==================================================================")
         try:
             result = getapi(target, api, cc)
@@ -783,9 +791,7 @@ except Exception:
     print("\tPlease Connect To Internet To Continue...\n")
     input('Exiting....\n Press Enter To Continue....')
     exit()
-print('\tChecking For Updates...')
-ver = urllib.request.urlopen(
-    "https://raw.githubusercontent.com/TheSpeedX/TBomb/master/.version").read().decode('utf-8')
+
 verl = ''
 try:
     verl = open(".version", 'r').read()
@@ -861,7 +867,7 @@ if nm > maxlim:
 if not cc.strip() == "91":
     if type == 1:
         print(
-            '\t\tSorry But Call Bombing is Currently Supported Only For Indian Numbers!!!!')
+            '\t\tSorry But Call Bombing is Currently Supported Only For BANGLADESH!!!!')
         print()
         input('Press Enter To Exit....')
         print('\n\n')
@@ -907,7 +913,7 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("==================================================================")
     print("              Use this for fun, not for revenge !!                ")
-    print("              This Bomber Was Created By SpeedX !!                ")
+    print("              This Bomber Was Created By SHIMANTO !!                ")
     print("==================================================================")
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
