@@ -1,0 +1,3 @@
+# sms_boomber
+# DONT TRY TO EDIT.I AM COME AND FUCK YOUR ASS
+# SO DONT TRY
